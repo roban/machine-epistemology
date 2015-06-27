@@ -2,11 +2,11 @@
 title: Machine Epsitemology
 email: roban+machine-epistemology@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-    Machine Learning, Inference, Prediction, Epistemology, Philosophy of
-    Science, Freediving, and Rainbows.
+ Machine Learning, Inference, Prediction, Epistemology, Philosophy of
+ Science, Freediving, and Rainbows.
 twitter_username: robanhk
 github_username: roban
-
+baseurl: /machine-epistemology
 # Build settings
 markdown: kramdown
 kramdown:
