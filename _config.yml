@@ -1,1 +1,13 @@
-highlighter: pygments
+# Site settings
+title: Machine Epsitemology
+email: roban+machine-epistemology@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+    Machine Learning, Inference, Prediction, Epistemology, Philosophy of
+    Science, Freediving, and Rainbows.
+twitter_username: robanhk
+github_username: roban
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
