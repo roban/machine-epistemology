@@ -8,5 +8,6 @@ twitter_username: robanhk
 github_username: roban
 baseurl: /machine-epistemology
 # Build settings
-markdown: redcarpet
+#markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
