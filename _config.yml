@@ -9,3 +9,4 @@ github_username: roban
 baseurl: /machine-epistemology
 # Build settings
 markdown: redcarpet
+highlighter: pygments
