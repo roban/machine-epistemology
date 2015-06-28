@@ -40,8 +40,8 @@ inference.
 
 ## beliefs and evidence
 
-The belief $$P$$ might be identified with a statements about model
-parameters that can be assigned posterior probabilities,
+The belief $$P$$ might be identified with a statement about model
+parameters that can be assigned a posterior probability,
 e.g. "parameter $$x$$ has a value less than $$0.5$$ (though see
 further discussion below). $$A$$'s "experiential evidence" seems
 similar to the set of observables in a Bayesian model.
@@ -111,7 +111,7 @@ recalculated with the same model $$p(P | y')$$.
 In the general case we might have to change not just the observables
 but the entire specification of the model to non-trivially incorporate
 new evidence. This points to the idea that the meaning of "belief"
-might be context dependent. Within the framework of a give model it
+might be context dependent. Within the framework of a given model it
 might refer to statements like "parameter $$x < 0.5$$", which can be
 assigned a posterior probability. When the model itself is called into
 question, however, the "belief in question" expands to encompass the
@@ -126,8 +126,8 @@ on a type of observation that we don't posses. We have to marginalized
 over the missing data, which will generally lower the likelihood of
 the observed data. Therefore *adding* the missing data should increase
 the likelihood of the sub-model and tend to increase its
-"justification" (posterior probability) relative to a model that is
-indifferent to the extra evidence.
+"justification" (posterior probability), while leaving unchanged the
+posterior of a sub-model that is indifferent to the extra evidence.
 
 However, if the data is "irrelevant" -- if it adds no information to
 the model and therefore fails to increase the likelihood of the
