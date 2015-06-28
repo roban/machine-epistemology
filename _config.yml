@@ -1,6 +1,7 @@
 # Site settings
-title: Machine Epsitemology
-email: roban+machine-epistemology@gmail.com
+title: Machine Epistemology
+author: Roban Hultman Kramer
+email: robanhk+machine.epistemology at google mail
 description: > # this means to ignore newlines until "baseurl:"
  Machine Learning, Inference, Prediction, Epistemology, Philosophy of
  Science, Freediving, and Rainbows.
