@@ -4,7 +4,7 @@ title: "Haack's Foundherentism and Bayesian Inference"
 ---
 
 Susan Haack, in discussing her epistemological theory that she
-calls "Foundherentism", proposes that
+calls "Foundherentism," argues that
 
 > Because quality of evidence is multi-dimensional, we should not
 > necessarily expect a linear ordering of degrees of justification

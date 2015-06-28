@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: about
 title: About
+photo: kramer.jpg
 permalink: /about/
+
 ---
 
 I work on the Machine Learning team at Stripe. I used to be an

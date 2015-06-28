@@ -114,6 +114,10 @@
     @extend %clearfix;
 }
 
+.footer-col-wrapper a {
+    color: desaturate($brand-color, 10%);
+}
+
 .footer-col {
     float: left;
     margin-bottom: $spacing-unit / 2;

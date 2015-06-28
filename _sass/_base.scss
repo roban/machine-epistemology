@@ -220,3 +220,10 @@ pre {
     border: 2px solid darken($brand-color, 30%);
     padding: 3px;
 }
+
+img.photo {
+		border: 3px solid $grey-color;
+		border-radius: 10px;
+		float: right;
+		margin-left: 25px;
+}
