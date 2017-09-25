@@ -216,9 +216,8 @@ pre {
 }
 
 .footnote {
-    border-radius: 10px;
-    border: 2px solid darken($brand-color, 30%);
-    padding: 3px;
+	  font-weight: bold;
+		font-color: darken($brand-color, 30%);
 }
 
 img.photo {
