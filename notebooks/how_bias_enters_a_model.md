@@ -26,10 +26,12 @@ $$P(y=1) = \mathrm{Logistic}(p_1 + p_2 + \epsilon)$$
 where
 
 $$p1 \sim \mathrm{Normal}(0,1)$$
-$$p2 \sim \mathrm{Normal}(0,1) \iff A=a$$
-$$p2 \sim \mathrm{Normal}(1,1) \iff A=b$$
-$$\epsilon \sim \mathrm{Normal}(0,1)$$
 
+$$p2 \sim \mathrm{Normal}(0,1) \iff A=a$$
+
+$$p2 \sim \mathrm{Normal}(1,1) \iff A=b$$
+
+$$\epsilon \sim \mathrm{Normal}(0,1)$$
 
 
 ```python
@@ -110,11 +112,11 @@ display(Markdown(
 ```
 
 
-Condition Positive Fraction for each attribute class: (a,b): 0.495 0.653
+Condition Positive Fraction for each attribute class: (a,b): 0.506 0.650
 
 
 
-Members of the $A=b$ group are 32% more likely to have the positive label than $b$ group.
+Members of the $A=b$ group are 28% more likely to have the positive label than $b$ group.
 
 
 ## Fit a Model
@@ -136,7 +138,7 @@ clf.intercept_, clf.coef_
 
 
 
-    (array([-0.03485031]), array([[ 0.84057777,  0.82558861]]))
+    (array([-0.00794129]), array([[ 0.81930492,  0.84255871]]))
 
 
 
@@ -190,18 +192,18 @@ The model has amplified the initial disparity by a factor of {:.2f}.
 ```
 
 
-Condition Positive fraction for each attribute class: (a,b): 50% 65%
+Condition Positive fraction for each attribute class: (a,b): 51% 65%
 
 
 
-Predicted Positive fraction for each attribute class: (a,b): 49% 76%
+Predicted Positive fraction for each attribute class: (a,b): 51% 76%
 
 
 
 
-So the initial 32% disparity in the _actual_ labels is amplified by the model.
-**Members of the $A=b$ group are 55% more likely to have the positive _predicted_ label than $b$ group.**
-The model has amplified the initial disparity by a factor of 1.18. 
+So the initial 28% disparity in the _actual_ labels is amplified by the model.
+**Members of the $A=b$ group are 49% more likely to have the positive _predicted_ label than $b$ group.**
+The model has amplified the initial disparity by a factor of 1.16. 
 
 
 
@@ -284,8 +286,8 @@ and {:.0f}% for group $b$**.
 
 
 
-At a threshold of model score $= 0.5$, the false positive rate is 40% overall, **30% for group $a$, 
-and 55% for group $b$**.
+At a threshold of model score $= 0.5$, the false positive rate is 41% overall, **31% for group $a$, 
+and 54% for group $b$**.
 
 
 
