@@ -115,7 +115,7 @@ Above you can see that the probability of (actually) being in the positive class
 display(Markdown("Condition Positive Fraction for each attribute class: (a,b): {:.3f} {:.3f}".format(
     y[attribute == 'a'].mean(), y[attribute == 'b'].mean())))
 display(Markdown(
-    "Members of the $A=b$ group are {:.0f}% more likely to have the positive label than $b$ group.".format(
+    "Members of the $A=b$ group are {:.0f}% more likely to have the positive label than $a$ group.".format(
     100.0 * (y[attribute == 'b'].mean()/y[attribute == 'a'].mean() - 1.0))))
 ```
 
@@ -124,7 +124,7 @@ Condition Positive Fraction for each attribute class: (a,b): 0.506 0.650
 
 
 
-Members of the $A=b$ group are 28% more likely to have the positive label than $b$ group.
+Members of the $A=b$ group are 28% more likely to have the positive label than $a$ group.
 
 
 ## Fit a Model
@@ -242,7 +242,7 @@ From the ROC curves, it looks like the model performs about equally well for all
 
 ### True Positive Rate
 
-Let's check the true positive rate $P(\hat{y}=1|y=1)$ vs the score threshold. We find that the true positive rate is *better* at all thresholds for the attribute $A=b$ group:
+Let's check the true positive rate $P(\hat{y}=1 \vert y=1)$ vs the score threshold. We find that the true positive rate is *better* at all thresholds for the attribute $A=b$ group:
 
 
 ```python
@@ -260,7 +260,7 @@ plt.ylabel("TPR");
 
 So it looks like the model will actually perform better in terms of TPR (aka recall) for group $A=b$.
 
-Now let's check the false positive rate $P(\hat{y}=0|y=1)$ vs the score threshold:
+Now let's check the false positive rate $P(\hat{y}=0 \vert y=1)$ vs the score threshold:
 
 
 ```python
