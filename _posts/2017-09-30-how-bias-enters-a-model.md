@@ -108,7 +108,7 @@ plt.legend(loc='best');
 ![png]({{ site.baseurl }}/notebooks/how-bias-enters-a-model_files/how-bias-enters-a-model_4_2.png)
 
 
-Above you can see that the probability of (actually) being in the positive class is correlated with the attribute and with one of the predictors. This results in points with attribute $A=b$ being much more likely to be in the positive class.
+Above you can see that the probability of (actually) being in the positive class is correlated with the attribute and with both of the predictors.
 
 
 ```python
