@@ -8,6 +8,9 @@ title: "How Bias Enters a Model"
 
 This notebook is a simple demonstration of how bias with respect an attribute can get encoded into a model, even if the labels are perfectly accurate and the model is unaware of the attribute.
 
+* [Download notebook file](http://roban.github.io/machine-epistemology/notebooks/how-bias-enters-a-model.ipynb)
+* [View notebook on github](https://github.com/roban/machine-epistemology/blob/gh-pages/notebooks/how-bias-enters-a-model.ipynb)
+
 
 ```python
 %matplotlib inline
@@ -94,15 +97,15 @@ plt.legend(loc='best');
 ```
 
 
-![png]({{ site.baseurl }}/notebooks/how_bias_enters_a_model_files/how_bias_enters_a_model_4_0.png)
+![png]({{ site.baseurl }}/notebooks/how-bias-enters-a-model_files/how-bias-enters-a-model_4_0.png)
 
 
 
-![png]({{ site.baseurl }}/notebooks/how_bias_enters_a_model_files/how_bias_enters_a_model_4_1.png)
+![png]({{ site.baseurl }}/notebooks/how-bias-enters-a-model_files/how-bias-enters-a-model_4_1.png)
 
 
 
-![png]({{ site.baseurl }}/notebooks/how_bias_enters_a_model_files/how_bias_enters_a_model_4_2.png)
+![png]({{ site.baseurl }}/notebooks/how-bias-enters-a-model_files/how-bias-enters-a-model_4_2.png)
 
 
 Above you can see that the probability of (actually) being in the positive class is correlated with the attribute and with one of the predictors. This results in points with attribute $A=b$ being much more likely to be in the positive class.
@@ -175,7 +178,7 @@ plt.legend(loc='best');
 ```
 
 
-![png]({{ site.baseurl }}/notebooks/how_bias_enters_a_model_files/how_bias_enters_a_model_12_0.png)
+![png]({{ site.baseurl }}/notebooks/how-bias-enters-a-model_files/how-bias-enters-a-model_12_0.png)
 
 
 
@@ -232,7 +235,7 @@ plt.ylabel("TRP");
 ```
 
 
-![png]({{ site.baseurl }}/notebooks/how_bias_enters_a_model_files/how_bias_enters_a_model_16_0.png)
+![png]({{ site.baseurl }}/notebooks/how-bias-enters-a-model_files/how-bias-enters-a-model_16_0.png)
 
 
 From the ROC curves, it looks like the model performs about equally well for all groups.
@@ -252,7 +255,7 @@ plt.ylabel("TPR");
 ```
 
 
-![png]({{ site.baseurl }}/notebooks/how_bias_enters_a_model_files/how_bias_enters_a_model_18_0.png)
+![png]({{ site.baseurl }}/notebooks/how-bias-enters-a-model_files/how-bias-enters-a-model_18_0.png)
 
 
 So it looks like the model will actually perform better in terms of TPR (aka recall) for group $A=b$.
@@ -270,7 +273,7 @@ plt.ylabel("FPR");
 ```
 
 
-![png]({{ site.baseurl }}/notebooks/how_bias_enters_a_model_files/how_bias_enters_a_model_21_0.png)
+![png]({{ site.baseurl }}/notebooks/how-bias-enters-a-model_files/how-bias-enters-a-model_21_0.png)
 
 
  We find that the false positive rate is much higher at all thresholds for the $A=b$ group. If the negative class is *preferred* (e.g. in a model predicting fraud, spam, defaulting on a loan, etc.), that means we're *much* more likely to *falsely* classify an *actually-good* member of group $b$ as *bad*, compared to a *actually-good* member of group $a$.
