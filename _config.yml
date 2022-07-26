@@ -1,8 +1,7 @@
 # Site settings
 title: Machine Epistemology
 author: Roban Hultman Kramer
-description: > # this means to ignore newlines until "baseurl:"
- Responsible Machine Learning, Epistemology
+description: Responsible Machine Learning, Epistemology
 baseurl: /machine-epistemology
 
 twitter_username: robanhk
