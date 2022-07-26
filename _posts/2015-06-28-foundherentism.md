@@ -139,9 +139,9 @@ likelihood. [^occam]
     diffuse priors on the same parameters are often "penalized"
     relative to "simpler" models (unless the increased quality of
     their match to the data outweights the increased complexity). See
-    Zoubin and
-    Ghahramani. [http://mlg.eng.cam.ac.uk/zoubin/papers/05occam/occam.pdf]("A
-    note on the evidence and Bayesian Occam’s razor") (2005).
+    Zoubin and Ghahramani. ["A note on the evidence and Bayesian Occam’s
+    razor"](http://mlg.eng.cam.ac.uk/zoubin/papers/05occam/occam.pdf)
+    (2005).
 
 There are certainly other approaches to model comparison besides model
 expansion. Model comparison has a long and contentious history in

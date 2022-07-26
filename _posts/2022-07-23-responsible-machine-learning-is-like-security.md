@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Responsible Machine Learning is like Security"
+summary: "Responsible machine learning (RML) is like data security because investments in either are motivated (at least partly) by tail risk"
+author: robanhk
 ---
 
 # The analogy: RML and Security
