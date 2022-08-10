@@ -18,7 +18,7 @@ It’s any company’s obligation to secure the sensitive information that users
 
 Responsible ML, like security or compliance, is difficult for individual teams to prioritize because
 
-- Incidents are seen as tail risks ([though see below](#are-model-harms-really-a-tail-risk)): from a short-term financial, any individual team is unlikely to pay the cost of a security incident or a public revelation of harmful model bias.
+- Incidents are seen as tail risks ([though see below](#are-model-harms-really-a-tail-risk)): from a short-term financial perspective, any individual team is unlikely to pay the cost of a security incident or a public revelation of harmful model bias.
 - Start-up costs are high: Both responsible ML and security require investments in tools and expertise. It’s inefficient for each team to duplicate that effort when much of it can be generalized and shared across teams.
 
 It’s hard to fit tail risks into a team’s typical framework for metrics and goals. While RML improvements are important for a company’s growth in the long term, they are not necessarily the quickest and surest ways to move existing team metrics in aggregate, especially given that even auditing for gaps in security or model safety requires an initial investment in expertise and tools.
@@ -61,6 +61,6 @@ Investing in Responsible ML tools and practices has benefits on top of mitigatin
 
 ### Benefit of small, early investments
 
-Responsible ML can suffer from letting the perfect be the enemy of the good. Because the surface area of potential risks is initially unclear, it can seem futile or dangerous to open that can of worms unless you can afford to fund a large, comprehensive project. And it’s true that a small team may not be able to mitigate every RML-related risk before any incident occurs. However targeted evaluation and improvement of your most public and impactful models can materially reduce the most salient risks and even unblock projects that would otherwise be deemed to pose too high a brand or compliance risk.
+Responsible ML can suffer from letting the perfect be the enemy of the good. Because the surface area of potential risks is initially unclear, it can seem futile or dangerous to open that can of worms unless you can afford to fund a large, comprehensive project. And it’s true that a small team may not be able to mitigate _every_ RML-related risk before _any_ incident occurs. However targeted evaluation and improvement of your most public and impactful models can materially reduce the most salient risks and even unblock projects that would otherwise be deemed to pose too high a brand or compliance risk.
 
 Perhaps the largest benefit of starting earlier with a small team (rather than waiting until you can fund a large effort) is that, when an incident does occur, you will be able to draw on that team’s existing infrastructure, tools, workflows, expertise, and external and internal personal networks to respond quickly, effectively, and credibly. The alternative is to start from scratch when an urgent need arises, resulting in less effective and slower incident response, and greater disruption to the timelines of other projects.
