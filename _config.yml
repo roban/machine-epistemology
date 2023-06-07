@@ -5,7 +5,8 @@ description: Responsible Machine Learning, Epistemology
 baseurl: /machine-epistemology
 
 twitter_username: robanhk
-mastodon_url: https://sigmoid.social/@roban
+mastodon_instance: sigmoid.social
+mastodon_username: roban
 github_username: roban
 email: robanhk@gmail.com
 homepage: http://roban.github.io/
